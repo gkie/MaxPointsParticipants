@@ -1,5 +1,3 @@
-package MaxPointsParticipantsMV;
-
 /**
  * Hello world!
  *
