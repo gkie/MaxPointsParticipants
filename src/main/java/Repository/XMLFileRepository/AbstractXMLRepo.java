@@ -64,10 +64,11 @@ public abstract class AbstractXMLRepo<ID,E extends HasId<ID>> extends AbstractCr
                     .newDocument();
             Element root=document.createElement("inbox");
             document.appendChild(root);
-            super.findAll().forEach(s->{
+            for (E s : super.findAll())
+            {
                 Element e=createElementFromEntity(document,s);
                 root.appendChild(e);
-            });
+            }
             Transformer transformer= TransformerFactory
                     .newInstance()
                     .newTransformer();
@@ -79,7 +80,7 @@ public abstract class AbstractXMLRepo<ID,E extends HasId<ID>> extends AbstractCr
 
     @Override
     public E save(E e) throws ValidatorException {
-        var stuff=super.save(e);
+        E stuff=super.save(e);
         if(stuff==null){
             writeAll();
         }
@@ -88,7 +89,7 @@ public abstract class AbstractXMLRepo<ID,E extends HasId<ID>> extends AbstractCr
 
     @Override
     public E delete(ID id) {
-        var stuff=super.delete(id);
+        E stuff=super.delete(id);
         if(stuff!=null)
             writeAll();
         return stuff;
@@ -96,7 +97,7 @@ public abstract class AbstractXMLRepo<ID,E extends HasId<ID>> extends AbstractCr
 
     @Override
     public E update(E entity) {
-        var stuff=super.update(entity);
+        E stuff=super.update(entity);
         if(stuff!=null)
             writeAll();
         return stuff;

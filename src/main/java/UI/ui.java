@@ -26,7 +26,10 @@ public class ui {
     */
 
     public void printAllEntities(AbstractXMLService srv){
-        srv.findAll().forEach(x-> System.out.println(x));
+        for (Object x : srv.findAll())
+        {
+           System.out.println(x);
+        }
     }
 
 

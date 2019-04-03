@@ -28,7 +28,7 @@ public abstract class AbstractXMLService<ID,E extends HasId<ID>> {
     public E findOne(ID id){
         return (E) xmlrepo.findOne(id);
     }
-    public Iterable<E>findAll(){
+    public Iterable<E> findAll(){
         return xmlrepo.findAll();
     }
     public int getSize(){

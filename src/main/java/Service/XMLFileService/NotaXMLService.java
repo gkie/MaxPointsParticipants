@@ -25,7 +25,8 @@ public class NotaXMLService extends AbstractXMLService<Integer,Nota>{
 
     public void printAllNotes(TemaLabXMLService srv) throws IOException {
         DataOutputStream out = new DataOutputStream(new FileOutputStream("NoteStudenti.txt"));
-        this.findAll().forEach(n-> {
+        for(Nota n : this.findAll())
+        {
             try {
                 out.writeChars("Tema: "+n.getTemaLabId()+
                         "\nNota: "+n.getValoare()+
@@ -35,8 +36,7 @@ public class NotaXMLService extends AbstractXMLService<Integer,Nota>{
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        });
-
+        }
     }
 
     @Override
