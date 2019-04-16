@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="353d9e18-066a-4bb4-ada8-15380cc75175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/MaxPointsParticipants-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/MaxPointsParticipantsMV.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-MaxPointsParticipantsMV.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/MaxPointsParticipantsMV/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/AbstractFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/AbstractFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/XMLFileService/AbstractXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/XMLFileService/AbstractXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/XMLFileService/NotaXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/XMLFileService/NotaXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/ui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcase/CrudRepoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/HasId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/HasId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/Nota.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/TemaLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/TemaLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/RepositoryException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exceptions/RepositoryException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exceptions/ServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ValidatorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exceptions/ValidatorException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/AbstractCrudRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/AbstractCrudRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/NotaRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/NotaRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/StudentRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/StudentRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/TemaLabRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/TemaLabRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/Repo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/AbstractFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/AbstractFileRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/NotaFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/NotaFileRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/StudentFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/StudentFileRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/TemaLabFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/TemaLabFileRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/AbstractXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/AbstractXMLRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/NotaXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/NotaXMLRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/StudentXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/StudentXMLRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/TemaLabXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/TemaLabXMLRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/AbstractService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/TxtFileService/AbstractService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/NotaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/TxtFileService/NotaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/TxtFileService/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/TemaLabService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/TxtFileService/TemaLabService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/NotaXMLService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/XMLFileService/NotaXMLService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/StudentXMLService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/XMLFileService/StudentXMLService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/TemaLabXMLService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/XMLFileService/TemaLabXMLService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/ui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UI/ui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/IValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/IValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/StudentValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/StudentValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/TemaLabValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/TemaLabValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcase/CrudRepoTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="353d9e18-066a-4bb4-ada8-15380cc75175" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +20,7 @@
     <session id="-1322148542">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.opened" value="5" />
@@ -116,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="303">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -334,7 +279,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554280560490" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554283273138" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -470,7 +415,7 @@
       <workItem from="1554275472360" duration="38000" />
       <workItem from="1554276604256" duration="1827000" />
       <workItem from="1554278562553" duration="461000" />
-      <workItem from="1554279051503" duration="1437000" />
+      <workItem from="1554279051503" duration="1785000" />
     </task>
     <servers />
   </component>
@@ -483,11 +428,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7167000" />
+    <option name="totallyTimeSpent" value="7515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24140401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -498,7 +442,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27951807" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27951807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -690,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="303">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
