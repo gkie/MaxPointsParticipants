@@ -1,6 +1,5 @@
 package MaxPointsParticipantsMV;
 
-
 import Exceptions.ValidatorException;
 import Repository.XMLFileRepository.NotaXMLRepo;
 import Repository.XMLFileRepository.StudentXMLRepo;
@@ -15,65 +14,89 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.fail;
 
-public class BigBangTest {
-    StudentXMLService stdSrv = new StudentXMLService(new StudentXMLRepo(new StudentValidator(), "StudentXML.xml"));
-    TemaLabXMLService tmLbSrv = new TemaLabXMLService(new TemaLabXMLRepo(new TemaLabValidator(), "TemaLaboratorXML.xml"));
-    NotaXMLService notaSrv = new NotaXMLService(new NotaXMLRepo(new NotaValidator(), "NotaXML.xml"));
+public class LabAssignment4InClass {
 
+    // Declarations
+    TemaLabXMLService tmLbSrv = new TemaLabXMLService(
+            new TemaLabXMLRepo(
+                    new TemaLabValidator(), "TemaLaboratorXML.xml"));
+    StudentXMLService stsrv = new StudentXMLService(
+            new StudentXMLRepo(
+                    new StudentValidator(), "StudentiXML.xml"));
+    NotaXMLService notaSrv = new NotaXMLService(
+            new NotaXMLRepo(
+                    new NotaValidator(), "NotaXML.xml"));
+
+    // Test case for add grade black box
     @Test
-    public void addGradeInvalidStudent() {
-        String id, ids, idt, val1, data;
+    public void addGradeTest() throws ValidatorException {
+        String id,ids,idt,val,data;
         id = "1";
-        ids = "2";
+        ids = "1";
         idt = "1";
-        val1 = "8";
-        data = "2018-11-02T12:00";
-        String[] params = {id, ids, idt, val1, data};
-        try {
-            notaSrv.add(params);
-            fail();
-        } catch (ValidatorException ex) {
-            assert true;
-        }
+        val = "10";
+        data = "2012-02-22T02:06:58";
+        String[] params = {id, ids, idt, val, data};
+        notaSrv.add(params);
+        assert true;
     }
 
     @Test
-    public void addAssignmentNormal()
-    {
+    public void addStudentTest() throws ValidatorException {
+        String id, nume, grupa, email, prof;
+        id = "1";
+        nume = "Oscar";
+        grupa = "923";
+        email = "oscar.gal@rodeapps.com";
+        prof = "Profesor X";
+        String[] params = {id, nume, grupa, email, prof};
+        this.stsrv.add(params);
+        assert true;
+    }
+
+    @Test
+    public void addAssignmentTest() throws ValidatorException {
         String id,descr,saptLim,saptPred;
         id = "1";
         descr = "smtg";
         saptLim = "10";
-        saptPred = "12";
+        saptPred = "10";
         String[] params={id,descr,saptLim,saptPred};
-        try {
-            tmLbSrv.add(params);
-        }catch (ValidatorException ex){
-            fail();
-        }
+        tmLbSrv.add(params);
     }
 
     @Test
-    public void addStudentNormal() {
-        String id,nume,grupa,email,prof;
+    public void bingBangTesting() throws ValidatorException {
+        String id, nume, grupa, email, prof;
         id = "1";
-        nume = "First Last";
-        grupa = "933";
-        email = "test@mail.com";
-        prof = "Some Teacher";
-        String[] params={id,nume,grupa,email,prof};
-        try{
-            stdSrv.add(params);
-        }catch (ValidatorException ex){
-            fail();
-        }
+        nume = "Oscar";
+        grupa = "923";
+        email = "oscar.gal@rodeapps.com";
+        prof = "Profesor X";
+        String[] params = {id, nume, grupa, email, prof};
+        this.stsrv.add(params);
+        assert true;
+
+        String ids,idt,val,data;
+        id = "1";
+        ids = "1";
+        idt = "1";
+        val = "10";
+        data = "2012-02-22T02:06:58";
+        String[] params2 = {id, ids, idt, val, data};
+        notaSrv.add(params2);
+        assert true;
+
+        String descr,saptLim,saptPred;
+        id = "1";
+        descr = "smtg";
+        saptLim = "10";
+        saptPred = "10";
+        String[] params3 = {id,descr,saptLim,saptPred};
+        tmLbSrv.add(params3);
+
     }
 
-    @Test
-    public void addGradeFullFlow()
-    {
-        addStudentNormal();
-        addAssignmentNormal();
-        addGradeInvalidStudent();
-    }
+
+
 }
