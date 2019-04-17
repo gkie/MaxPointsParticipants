@@ -14,7 +14,7 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.fail;
 
-public class LabAssignment4InClass {
+public class BigBangTest {
 
     // Declarations
     TemaLabXMLService tmLbSrv = new TemaLabXMLService(
