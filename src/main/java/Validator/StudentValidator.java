@@ -6,7 +6,7 @@ public class StudentValidator implements IValidator<Student> {
 
     public void validate(Student s) throws ValidatorException {
         String errors="";
-        if(s.getId().equals("")){
+        if(s.getId().equals("") || !(isNumeric(s.getId().toString())) || s.getId() == null){
             //throw new ValidatorException("Id invalid\n");
             errors+="Id invalid\n";
         }
@@ -24,6 +24,14 @@ public class StudentValidator implements IValidator<Student> {
         }
         if (errors.length()!=0){
             throw  new ValidatorException(errors);
+        }
+    }
+    public static boolean isNumeric(String str) {
+        try {
+            Double.parseDouble(str);
+            return true;
+        } catch(NumberFormatException e){
+            return false;
         }
     }
 }
